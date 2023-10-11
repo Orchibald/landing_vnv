@@ -1,0 +1,55 @@
+.main_services-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+}
+
+.main_services_nav-btn {
+  padding: 10px 20px;
+  color: #95aabd;
+  border: 2px solid #95aabd;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #623d6a; 
+}
+
+.main_services_nav-btn:hover {
+  background-color: #95aabd; 
+  color: #623d6a;
+}
+
+.main_services_nav-btn:last-child {
+  margin-right: 0;
+}
+
+.main_services-content {
+  background-color: #95aabd;
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+  padding: 0 20px;
+  border-radius: 20px;
+}
+
+.main_services-sub {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  padding: 0 20px;
+  cursor: pointer;
+  line-height: 30px;
+  display: inline-block;
+  background-color: #4b3550;
+  color: #95aabd;
+  margin: 10px 0;
+}
+
+.main_services-sub:hover {
+  box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+

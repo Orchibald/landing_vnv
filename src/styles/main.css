@@ -1,0 +1,40 @@
+.main_motto {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  gap: 20px;
+  height: 60vh;
+}
+
+.main_motto-text {
+  font-size: 70px;
+  text-align: center;
+  color: #95aabd;
+}
+
+.main_want {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_want-btn {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  padding: 0 20px;
+  cursor: pointer;
+  line-height: 50px;
+  display: inline-block;
+  background-color: #4b3550;
+  color: #95aabd;
+  transition: background-color 2s ease, transform 0.3s ease, color 2s ease;
+}
+
+.main_want-btn:hover {
+  transform: scale(1.2);
+  background-color: #95aabd;
+  color: #4b3550;
+}

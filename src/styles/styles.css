@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  background-color: #623d6a;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.headline {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #95aabd;
+  animation: textShadowAnimation 6s linear infinite;
+}
+
+@keyframes textShadowAnimation {
+  0% {
+    text-shadow: -20px -20px 6px hsl(206, 43%, 10%);
+  }
+  50% {
+    text-shadow: 20px -20px 6px hsl(188, 34%, 59%);
+  }
+  100% {
+    text-shadow: -20px -20px 6px hsl(206deg 39.34% 19.88%);
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import "/src/styles/header.css"; 
+@import "/src/styles/main.css";
+@import '/src/styles/why.css';
+@import '/src/styles/services.css';
+@import '/src/styles/projects.css';
+@import '/src/styles/contact.css';
+@import '/src/styles/brief.css';
+@import '/src/styles/faq.css';
+@import '/src/styles/socialNetworks.css';

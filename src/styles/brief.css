@@ -1,0 +1,31 @@
+.brief_container {
+  margin-bottom: 100px;
+}
+
+.brief_content {
+  background-color: #95aabd;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 20px;
+  padding: 20px 20px;
+  border-radius: 20px;
+}
+
+.brief-btn {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #623d6a;
+  color: #95aabd;
+  border-radius: 5px;
+  font-weight: bold;
+  transition-duration: 0.3s;
+}
+
+.brief-btn:hover {
+  color: white;
+  background-color: #774a81;
+  scale: 1.02;
+}
