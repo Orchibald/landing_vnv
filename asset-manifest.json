@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/my-react-app/static/css/main.09775547.css",
+    "main.js": "/my-react-app/static/js/main.5939ae1e.js",
+    "static/media/project1.jpeg": "/my-react-app/static/media/project1.575cf9490417117ad8fa.jpeg",
+    "static/media/project3.jpeg": "/my-react-app/static/media/project3.bc76cdeec2bee3730a6c.jpeg",
+    "static/media/project2.jpeg": "/my-react-app/static/media/project2.b322ebd8153a2b58ca8c.jpeg",
+    "static/media/logo_vnv.png": "/my-react-app/static/media/logo_vnv.6328696c9eac305aeaef.png",
+    "index.html": "/my-react-app/index.html",
+    "main.09775547.css.map": "/my-react-app/static/css/main.09775547.css.map",
+    "main.5939ae1e.js.map": "/my-react-app/static/js/main.5939ae1e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09775547.css",
+    "static/js/main.5939ae1e.js"
+  ]
+}
